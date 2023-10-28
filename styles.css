@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e19191;
+}
+
+.container {
+    text-align: center;
+}
+
+.centered-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.round-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #0077FF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#naoButton {
+    background-color: #FF3333;
+}

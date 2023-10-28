@@ -1,0 +1,40 @@
+body {
+    background-image: url('img/fundo.rom.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.book {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #000;
+}
+.h1{
+    background-color: rgb(255, 8, 87);
+}
+
+.book-page {
+    flex: 0 0 50%; 
+    padding: 20px;
+}
+
+.book img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+
+.page-turn-button {
+    background-color: #0077FF;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
